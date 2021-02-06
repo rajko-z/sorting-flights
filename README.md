@@ -3,8 +3,10 @@ This project is school assignment for intro to C++ course based on this [book](h
 
 ## Two modes
 
+Run **main.cpp**
+
 #### Command line arguments
-You have to specify this parametars in this order: <br /n>
+You have to specify this parametars in this order:
 - inputFileName (contains flights you want to sort)
 - outputFileName (return sorted flights with additional information)
 - algorithm ('s' for selectionSort and 'm' for mergeSort)
@@ -15,7 +17,7 @@ You have to specify this parametars in this order: <br /n>
    4. 'gn' - gate number
 - reverse (0 for increasing sort, and 1 for decreasing)
 #### GUI
-
+If there is no command line arguments, the program will open this window to get the data <br />
 <img src="Images/gui.jpg" width="600">
 
 ## Visualization
@@ -27,4 +29,4 @@ If inputed arguments are valid, visualization will start. You can track position
 and corresponding input and output files after sorting <br /> <br />
 
 
-<img src="Images/2.jpg" width="500">
+<img src="Images/2.jpg" width="650">
