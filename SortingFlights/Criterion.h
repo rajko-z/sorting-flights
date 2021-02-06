@@ -5,9 +5,6 @@
 enum class Choice { FLIGHT_NUM = 1, DESTINATION, DEPARTURE_TIME, GATE_NUM};
 
 
-// klasa koja predstavlja kriterijum sortiranja
-// sadrzi enumeraciju mogucih izbora
-// i da li zelimo da sortiranje bude u rastucem ili opadajucem kriterijumu
 class Criterion {
 	Choice m_choice;
 	bool m_reverse;

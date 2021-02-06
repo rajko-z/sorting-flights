@@ -28,12 +28,9 @@ public:
 	inline std::string departure_time() const { return m_departure_time; }
 	inline std::string gate_num() const { return m_gate_num; }
 	
-	// funkcija za poredjenje dva leta po zadatom kriterijumu
 	int compareTo(const Flight& other, Criterion criterion);
 
 
-	// pomocni atribut za sortiranje, cuva inicijalnu poziciju leta, pre same iteracije
-	// potreban da bi posle znali koji element je promenio poziciju i gde
 	int _index = 0;
 
 	friend std::ostream& operator<<(std::ostream& os, const Flight& flight);
