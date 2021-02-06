@@ -1,0 +1,27 @@
+[ Criterium of sorting = FLIGHT NO. , reverse = FALSE ]
+_______________________
+RESULTS AFTER SORTING
+-----------------------
+===========================================================
+  Flight No.    Destination   Departure      Gate No.
+===========================================================
+       AA220         LONDON       20:30      B4
+       AA223      LAS VEGAS       21:15      A3
+       AA224       NOVI SAD        8:20      A7
+       AA342         BRISEL       16:00      A7
+       AF342       BELGRADE        7:45      A3
+       BA036      AMSTERDAM       21:00      A3
+       BA087         LONDON       17:45      B4
+       QU607            NIS        8:30      F2
+       VI303       NEW YORK       19:00      B4
+       VI309         PRAGUE       13:20      F2
+===========================================================
+   Iteration     Comparisons No.      Swaps No.
+===========================================================
+           1                  10              2
+           2                  10              6
+           3                  10              6
+           4                  10             10
+____________________________________________________________
+Iterations No. = 4   Swaps No. = 24   Comparisons No. = 40   
+____________________________________________________________
